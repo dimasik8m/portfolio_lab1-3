@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Партфолио</title>
+  </head>
+  <body>
+    <div>
+      <h1 class="pv">Мое резюме</h1>
+    <div style="display: flex; justify-content: center; width: 100%;"><img class="img" src="images/1.jpg"></div>
+    <h2 style="">О себе</h2>
+    <p style="font-size: 20px; font-family: Times New Roman;"><i><b>Я, Михно Дмитрий Владимирович</b> <ins>мне 17 лет,</ins> учащийся группы ПЗТ-38 Гродненского Государственного Политехнического колледжа.</i></p>
+    <p><b>Мои достижения</b></p>
+         <ul style="font-size: 14px; font-family: Times New Roman;text-align: match-parent; display: flex; flex-direction: column;">
+            <li>36000 кубков в Brawl Stars</li>
+            <li>14 тх в Clash of Clans</li>   
+            <li>Живой</li>
+        </ul>
+      <div style="display: flex; flex-direction: row; justify-content: space-around;">
+        <div style="display: flex; flex-direction: column; align-items: center; font-family: 'Times New Roman';">
+            <h1>Мои любимые песни:</h1>
+            <p><i>Bella Ciao</i></p>
+            <audio src="music/1.mp3" controls></audio>
+            <p><i>Feel Good inc</i></p>
+            <audio src="music/2.mp3" controls></audio>
+            <p><i>Durak i molniya</i></p>
+            <audio src="music/3.mp3" controls></audio>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center; font-family: 'Times New Roman';">
+            <h3><i>Видео</i></h3>
+            <video width="640" height="360" src="video/2.mp4" controls>  </video> 
+        </div>
+    </div>
+    
+    <div>
+      <table>
+        <colgroup>
+          <col span="2" style="background:rgb(198, 154, 195)">
+          <col style="background-color:rgb(183, 188, 181)">
+        </colgroup>
+        <tr>
+          <th colspan="3">Супер-пупер таблица</th>
+        
+        </tr>
+        <tr>
+          <td rowspan="3">Объедененные строки</td>
+          <td> 1 столбец </td>
+          <td>2 столбец </td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>Необъедененная строка</td>
+            <td>3</td>
+            <td>3</td>
+          </tr>
+      </table>
+      </div>
+      <h4>Обратная связь</h4>
+      <a href = "https://vk.com/dimasik8m" target="_blank">Связаться со мной</a><br>
+      <div class="guruweba_example_infofield">Тема обращения</div>
+      <select name="theme" required="required">
+        <option value="">Выберите вариант</option>
+        <option>Как быть красивым</option>
+        <option>Вопрос о Brawl Stars</option>
+        <option>Как я добился всего этого</option>
+      </select>
+      <div>Ваше имя</div>
+      <input type="text" name="name" required="required">
+      <div>Ваш email</div>
+      <input type="email" name="email" required="required">
+      <div>Сообщение</div>
+      <textarea name="message"></textarea>
+      <a href="#" class="knopka">Отправить</a>
+      <br>     
+    </form>
+    <br>
+    <hr>
+    <form>
+      <p>Кнопочки, чтобы потыкать:</p>
+      <div class="form_radio">
+        <input id="radio-1" type="radio" name="radio" value="1" checked>
+        <label for="radio-1">Тык</label>
+      </div>
+       
+      <div class="form_radio">
+        <input id="radio-2" type="radio" name="radio" value="2">
+        <label for="radio-2">Тык</label>
+      </div>
+       
+      <div class="form_radio">
+        <input id="radio-3" type="radio" name="radio" value="3">
+        <label for="radio-3">Тык</label>
+      </div>
+       
+      <div class="form_radio">
+        <input id="radio-4" type="radio" name="radio" value="4" disabled>
+        <label for="radio-4">А эту нельзя тыкать</label>
+      </div>
+      <hr>
+      <br>
+    </form>
+
+    <fieldset>
+      <legend>Тыкать все сразу:</legend>
+  
+      <div>
+        <input type="checkbox" id="scales" name="scales" checked>
+        <label for="scales">Тык 1</label>
+      </div>
+  
+      <div>
+        <input type="checkbox" id="horns" name="horns">
+        <label for="horns">Тык 2</label>
+        <div>
+          <div>
+            <input type="checkbox" id="scales" name="scales" checked>
+            <label for="scales">Тык 3</label>
+          </div>
+          <br>
+          <a href="#" class="knopka">Отправить</a>
+        </div>
+      </div>
+  </fieldset>
+  <div style="display: flex; justify-content: center; width: 100%;"> <a href="#top">Наверх</a></div>
+  </body>
+</html>
